@@ -4,7 +4,7 @@ function [f, g] = weighted_logistic_regression(theta, X, y, w)
     %   X - The examples stored in a matrix.    
     %       X(i,j) is the i'th coordinate of the j'th example.  
     %   y - The label for each example.  y(j) is the j'th example's label.  
-    %   w - The label for each example.  y(j) is the j'th example's label. 
+    %   w - The weight for each example.  w(j) is the j'th example's weight. 
 
     % initialize objective value and gradient.  
     f = 0;  
